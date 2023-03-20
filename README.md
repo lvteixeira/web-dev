@@ -1,5 +1,1 @@
-# myEcomm project
-{{ project description }}
-
-# build instructions
-{{ instructions }}
+# web-dev repo
