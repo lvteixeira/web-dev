@@ -46,10 +46,6 @@ print(f"{owner_2.name}'s 'has_pet' attr before adoption -> '{owner_2.has_pet}'")
 print(f"{dog_1.name}'s 'has_owner' attr before adoption -> '{dog_1.has_owner}'")
 print(f"{cat_1.name}'s 'has_owner' attr before adoption -> '{cat_1.has_owner}'")
 owner_1.adoption(dog_1)
-#dog_1.has_owner = owner_1.name
-#owner_1.has_pet = dog_1.name
-#cat_1.has_owner = owner_2.name
-#owner_2.has_pet = cat_1.name
 owner_2.adoption(cat_1)
 
 print('')
