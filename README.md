@@ -1,4 +1,4 @@
-# web-dev
+# myEcomm project
 {{ project description }}
 
 # build instructions
