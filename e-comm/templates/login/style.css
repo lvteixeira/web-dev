@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.img-frontpage-logo {
+  display: flex;
+  align-items: left;
+  margin: 0 auto;
+  border: 0px solid black;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 1px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 1px;
+  border-bottom-right-radius: 1;
+  border-bottom-left-radius: 1;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 1;
+  border-top-right-radius: 1;
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #b5b7b8;
+  border-color: #3d3d3d; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #212520;
+  background-color: #a7a7a7;
+  border-color: #818181; /*set the color you want here*/
+}
